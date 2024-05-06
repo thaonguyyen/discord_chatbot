@@ -1,0 +1,5 @@
+CREATE TABLE api_data (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    data JSONB
+);
